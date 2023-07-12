@@ -45,7 +45,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc LICENSE CHANGELOG
+%doc CHANGELOG LICENSE README.md
 %config(noreplace) %verify(not md5 mtime size) /etc/pam.d/i3lock
 %attr(755,root,root) %{_bindir}/i3lock
 %{_mandir}/man1/i3lock.1*
