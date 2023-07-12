@@ -16,10 +16,12 @@ BuildRequires:	ninja
 BuildRequires:	pam-devel
 BuildRequires:	pkgconfig
 BuildRequires:	rpmbuild(macros) >= 1.736
+BuildRequires:	tar >= 1:1.22
 BuildRequires:	xcb-util-devel
 BuildRequires:	xcb-util-image-devel
 BuildRequires:	xcb-util-xrm-devel
 BuildRequires:	xorg-lib-libxkbcommon-x11-devel
+BuildRequires:	xz
 Requires:	cairo >= 1.14.4
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
